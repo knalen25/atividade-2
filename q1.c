@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 int main(){
     
     int vetor[10],npos, vezes;
@@ -7,7 +9,7 @@ int main(){
    for (int i = 0; i < 10; i++)
    {
         scanf("%d", &npos);
-        printf("%d", npos);
+        printf("%d ", npos);
         vetor[i] = npos;      
    }
    printf("\n");
@@ -21,7 +23,7 @@ int main(){
                         printf("%d ", vetor[i]);
                         
                     }
-
+                printf("\n");
             }
 
 
