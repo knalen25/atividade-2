@@ -77,11 +77,11 @@ int main() {
 
     if (media1>media2)
     {
-        printf("%s eh mais forte", time1);
+        printf("%s eh mais forte\n", time1);
     }
     else
     {
-        printf("%s eh mais forte", time2);
+        printf("%s eh mais forte\n", time2);
     }
     
     
